@@ -1,0 +1,11 @@
+/* TEAM */
+UI Engineer: Alyssa Davis
+Site: http://alyssa-davis.com
+Twitter: @alyda21
+Location: Los Angeles, USA
+
+/* SITE */
+Last update: 2015/06/13
+Standards: HTML5, CSS3.
+Components: Typekit, Modernizr.
+Software: Sublime, Git.
