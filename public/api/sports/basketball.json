@@ -1,0 +1,14 @@
+{
+  "title": "Basketball",
+  "url": "/api/sports/basketball.json",
+  "stats": [
+    "FGM",
+    "REB",
+    "AST",
+    "STL",
+    "FGA",
+    "TO",
+    "FTM",
+    "FTA"
+  ]
+}

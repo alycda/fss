@@ -1,0 +1,15 @@
+{
+  "title": "Alyssa Davis",
+  "url": "/api/players/alyssa-davis.json",
+  "name": {
+    "first": "Alyssa",
+    "middle": "Cleo",
+    "last": "Davis"
+  },
+  "gender": "Female",
+  "city": "Fort Scott",
+  "sports": [
+    "Soccer",
+    "Cross Country"
+  ]
+}

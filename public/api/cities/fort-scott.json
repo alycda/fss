@@ -1,0 +1,10 @@
+{
+  "title": "Fort Scott",
+  "url": "/api/cities/fort-scott.json",
+  "city": "Fort Scott",
+  "state": "Kansas",
+  "sports": [
+  ],
+  "schools": [
+  ]
+}
