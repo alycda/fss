@@ -26,6 +26,7 @@
     <nav id="sub-navigation"> </nav>
 
     <h3>Headlines</h3>
+    <ul class="headlines"> </ul>
 
     <h3>Scores</h3>
 
@@ -45,6 +46,10 @@
         <li><a href="<%= link.href %>"><%= link.title %></a></li>
       <% }) %>
       </ul>
+    </script>
+    <script type="text/template" class="headline-view">
+    <h3><a href="<%= url %>"><%= title %></a></h3>
+    <p><%= teaser %></p>
     </script>
     <script src="js/main.js"></script>
   </footer>

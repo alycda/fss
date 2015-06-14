@@ -20,11 +20,12 @@
   <h1 class="tk-chunk"><a href="/" title="Home page">Fort Scott Sports</a></h1>
   <nav id="main-navigation"> </nav>
   <section>
-  <h2>Headlines</h2>
+    <h2>Headlines</h2>
+    <ul class="headlines"> </ul>
 
-  <h2>Scores</h2>
+    <h2>Scores</h2>
 
-  <h2>Upcoming Games</h2>
+    <h2>Upcoming Games</h2>
   </section>
 
   <footer>
@@ -39,6 +40,10 @@
         <li><a href="<%= link.href %>"><%= link.title %></a></li>
       <% }) %>
       </ul>
+    </script>
+    <script type="text/template" class="headline-view">
+    <h3><a href="<%= url %>"><%= title %></a></h3>
+    <p><%= teaser %></p>
     </script>
     <script src="js/main.js"></script>
   </footer>
