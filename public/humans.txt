@@ -7,5 +7,5 @@ Location: Los Angeles, USA
 /* SITE */
 Last update: 2015/06/13
 Standards: HTML5, CSS3.
-Components: Typekit, Modernizr.
+Components: Typekit, Modernizr, Backbone, Zepto, Lo-dash.
 Software: Sublime, Git.

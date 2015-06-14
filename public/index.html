@@ -18,19 +18,29 @@
 </head>
 <body>
   <h1 class="tk-chunk"><a href="/" title="Home page">Fort Scott Sports</a></h1>
-  <nav>
-    <h1 class="is-hidden">Main Navigation</h1>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/football.html">Football</a></li>
-    </ul>
-  </nav>
-
+  <nav id="main-navigation"> </nav>
+  <section>
   <h2>Headlines</h2>
 
   <h2>Scores</h2>
 
   <h2>Upcoming Games</h2>
+  </section>
 
+  <footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
+
+    <script type="text/template" class="navigation-view">
+      <h1 class="is-hidden"><%= title %></h1>
+      <ul>
+      <% _.forEach(links, function(link){ %>
+        <li><a href="<%= link.href %>"><%= link.title %></a></li>
+      <% }) %>
+      </ul>
+    </script>
+    <script src="js/main.js"></script>
+  </footer>
 </body>
 </html>

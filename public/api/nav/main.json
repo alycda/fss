@@ -1,0 +1,12 @@
+{
+  "title": "Main Navigation",
+  "links": [
+    {
+      "title": "Home",
+      "href": "/"
+    }, {
+      "title": "Football",
+      "href": "/football.html"
+    }
+  ]
+}

@@ -18,28 +18,12 @@
 </head>
 <body>
   <h1 class="tk-chunk"><a href="/" title="Home page">Fort Scott Sports</a></h1>
-  <nav>
-    <h1 class="is-hidden">Main Navigation</h1>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/football.html">Football</a></li>
-    </ul>
-  </nav>
+  <nav id="main-navigation"> </nav>
 
   <section>
     <h2>Football</h2>
 
-    <nav>
-      <h1 class="is-hidden">Sub Navigation</h1>
-      <ul>
-        <li><a href="/football.html">Football Home</a></li>
-        <li><a href="/football-schedule.html">Schedule</a></li>
-        <li><a href="/football-scores.html">Scores</a></li>
-        <li><a href="/football-standings.html">Standings</a></li>
-        <li><a href="/football-teams.html">Teams</a></li>
-        <li><a href="/football-stats.html">Stats</a></li>
-      </ul>
-    </nav>
+    <nav id="sub-navigation"> </nav>
 
     <h3>Headlines</h3>
 
@@ -49,5 +33,20 @@
 
   </section>
 
+  <footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
+
+    <script type="text/template" class="navigation-view">
+      <h1 class="is-hidden"><%= title %></h1>
+      <ul>
+      <% _.forEach(links, function(link){ %>
+        <li><a href="<%= link.href %>"><%= link.title %></a></li>
+      <% }) %>
+      </ul>
+    </script>
+    <script src="js/main.js"></script>
+  </footer>
 </body>
 </html>

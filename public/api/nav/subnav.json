@@ -1,0 +1,24 @@
+{
+  "title": "Sub Navigation",
+  "links": [
+    {
+      "title": "Home",
+      "href": "./"
+    }, {
+      "title": "Schedule",
+      "href": "schedule.html"
+    }, {
+      "title": "Scores",
+      "href": "scores.html"
+    }, {
+      "title": "Standings",
+      "href": "standings.html"
+    }, {
+      "title": "Teams",
+      "href": "teams.html"
+    }, {
+      "title": "Stats",
+      "href": "stats.html"
+    }
+  ]
+}
