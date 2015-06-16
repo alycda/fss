@@ -1,0 +1,160 @@
+{
+  "sport": "Football",
+  "url": "/api/sports/football/2015/schedule.json",
+  "games": [
+    {
+      "date": "8/28/2015",
+      "time": "6:00pm",
+      "levels": ["Freshman", "Junior Varsity", "Varsity"],
+      "teams": {
+        "home": "Fort Scott High School",
+        "away": "Red/White"
+      },
+      "Location": "Fort Scott"
+    }, {
+      "date": "9/4/2015",
+      "time": "7:00pm",
+      "levels": ["Varsity"],
+      "teams": {
+        "home": "Parsons",
+        "away": "Fort Scott High School"
+      },
+      "Location": "Parsons"
+    }, {
+      "date": "9/8/2015",
+      "time": "5:00pm",
+      "levels": ["Freshman", "Junior Varsity"],
+      "teams": {
+        "home": "Fort Scott High School",
+        "away": "Parsons"
+      },
+      "Location": "Fort Scott"
+    }, {
+      "date": "9/11/2015",
+      "time": "7:00pm",
+      "levels": ["Varsity"],
+      "teams": {
+        "home": "Fort Scott High School",
+        "away": "Spring Hill"
+      },
+      "Location": "Fort Scott"
+    }, {
+      "date": "9/14/2015",
+      "time": "4:00pm",
+      "levels": ["Freshman", "Junior Varsity"],
+      "teams": {
+        "home": "Spring Hill",
+        "away": "Fort Scott High School"
+      },
+      "Location": "Spring Hill"
+    }, {
+      "date": "9/18/2015",
+      "time": "7:00pm",
+      "levels": ["Varsity"],
+      "teams": {
+        "home": "Fort Scott High School",
+        "away": "Pittsburg"
+      },
+      "Location": "Fort Scott"
+    }, {
+      "date": "9/21/2015",
+      "time": "5:00pm",
+      "levels": ["Freshman", "Junior Varsity"],
+      "teams": {
+        "home": "Pittsburg",
+        "away": "Fort Scott High School"
+      },
+      "Location": "Pittsburg"
+    }, {
+      "date": "9/25/2015",
+      "time": "7:00pm",
+      "levels": ["Varsity"],
+      "teams": {
+        "home": "Coffeyville",
+        "away": "Fort Scott High School"
+      },
+      "Location": "Coffeyville"
+    }, {
+      "date": "9/28/2015",
+      "time": "5:00pm",
+      "levels": ["Freshman", "Junior Varsity"],
+      "teams": {
+        "home": "Fort Scott High School",
+        "away": "Coffeyville"
+      },
+      "Location": "Fort Scott"
+    }, {
+      "date": "10/2/2015",
+      "time": "7:00pm",
+      "levels": ["Varsity"],
+      "teams": {
+        "home": "Prairie View",
+        "away": "Fort Scott High School"
+      },
+      "Location": "Prairie View"
+    }, {
+      "date": "10/5/2015",
+      "time": "4:30pm",
+      "levels": ["Freshman", "Junior Varsity"],
+      "teams": {
+        "home": "Fort Scott High School",
+        "away": "Prairie View"
+      },
+      "Location": "Fort Scott"
+    }, {
+      "date": "10/9/2015",
+      "time": "7:00pm",
+      "levels": ["Varsity"],
+      "teams": {
+        "home": "Fort Scott High School",
+        "away": "Independence"
+      },
+      "Location": "Fort Scott"
+    }, {
+      "date": "10/12/2015",
+      "time": "5:00pm",
+      "levels": ["Freshman", "Junior Varsity"],
+      "teams": {
+        "home": "Independence",
+        "away": "Fort Scott High School"
+      },
+      "Location": "Independence"
+    }, {
+      "date": "10/16/2015",
+      "time": "7:00pm",
+      "levels": ["Varsity"],
+      "teams": {
+        "home": "Chanute",
+        "away": "Fort Scott High School"
+      },
+      "Location": "Chanute"
+    }, {
+      "date": "10/19/2015",
+      "time": "5:00pm",
+      "levels": ["Freshman", "Junior Varsity"],
+      "teams": {
+        "home": "Fort Scott High School",
+        "away": "Chanute"
+      },
+      "Location": "Fort Scott"
+    }, {
+      "date": "10/23/2015",
+      "time": "7:00pm",
+      "levels": ["Varsity"],
+      "teams": {
+        "home": "LCHS",
+        "away": "Fort Scott High School"
+      },
+      "Location": "LCHS"
+    }, {
+      "date": "10/30/2015",
+      "time": "7:00pm",
+      "levels": ["Varsity"],
+      "teams": {
+        "home": "Fort Scott High School",
+        "away": "Paola"
+      },
+      "Location": "Fort Scott"
+    }
+  ]
+}

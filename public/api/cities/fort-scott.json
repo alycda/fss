@@ -3,8 +3,29 @@
   "url": "/api/cities/fort-scott.json",
   "city": "Fort Scott",
   "state": "Kansas",
-  "sports": [
-  ],
+  "mascot": "Tigers",
   "schools": [
+    {
+      "name": "Fort Scott High School",
+      "level": "High School",
+      "mascot": "Tigers",
+      "sports": [
+        {
+          "sport": "Football",
+          "teams": [
+            {
+              "team": "Freshman",
+              "gender": "Boys"
+            }, {
+              "team": "Junior Varsity",
+              "gender": "Boys"
+            }, {
+              "team": "Varsity",
+              "gender": "Boys"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
